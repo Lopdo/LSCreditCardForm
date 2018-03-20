@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LSCreditCardForm_Example' do
+  pod 'LSCreditCardForm', :path => '../'
+
+  target 'LSCreditCardForm_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
