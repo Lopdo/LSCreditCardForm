@@ -1,0 +1,6 @@
+framework module LSCreditCardForm {
+  umbrella header "LSCreditCardForm-umbrella.h"
+
+  export *
+  module * { export * }
+}

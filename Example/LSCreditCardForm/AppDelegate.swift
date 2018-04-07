@@ -2,11 +2,11 @@
 //  AppDelegate.swift
 //  LSCreditCardForm
 //
-//  Created by lopdo on 03/20/2018.
+//  Created by lopdo on 03/16/2018.
 //  Copyright (c) 2018 lopdo. All rights reserved.
 //
 
-import UIKit
+import LSCreditCardForm
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+		LSCreditCardFormConfig.CreditCard.softLimitVisaTo16Digits = true
         return true
     }
 

@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2zD-fb-vZR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="RG9-PC-9Oo">
+            <objects>
+                <viewController id="2zD-fb-vZR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="izd-Z3-kEm"/>
+                        <viewControllerLayoutGuide type="bottom" id="IAB-IM-hOW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LHf-1D-cvO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SY-wp-REg">
+                                <rect key="frame" x="164" y="289" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="l7A-pR-ePV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2SY-wp-REg" firstAttribute="centerY" secondItem="LHf-1D-cvO" secondAttribute="centerY" id="c4R-qJ-XYU"/>
+                            <constraint firstItem="2SY-wp-REg" firstAttribute="centerX" secondItem="LHf-1D-cvO" secondAttribute="centerX" id="uCh-Kh-efB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QvW-aX-4sM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-710" y="105"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -20,11 +51,28 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IkR-af-gGW" customClass="LSCreditCardFormView" customModule="LSCreditCardForm">
+                                <rect key="frame" x="0.0" y="20" width="375" height="347"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IkR-af-gGW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="DUW-FQ-8qI"/>
+                            <constraint firstAttribute="trailing" secondItem="IkR-af-gGW" secondAttribute="trailing" id="hov-sV-c2D"/>
+                            <constraint firstItem="IkR-af-gGW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="jC5-Iw-lhs"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IkR-af-gGW" secondAttribute="bottom" constant="300" id="zki-fY-1uu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="constraintKeyboard" destination="zki-fY-1uu" id="hqx-12-gri"/>
+                        <outlet property="viewCCForm" destination="IkR-af-gGW" id="Nvk-Qh-bXw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="94" y="105"/>
         </scene>
     </scenes>
 </document>

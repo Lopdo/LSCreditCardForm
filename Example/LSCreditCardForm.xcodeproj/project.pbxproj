@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B67A372016775913CAC50090 /* Pods_LSCreditCardForm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C0E85AC21DFEF3B7108A93 /* Pods_LSCreditCardForm_Example.framework */; };
+		F4C074E72079074C004AD9B1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4C074E62079074C004AD9B1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065308E311C70FA1570A4CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		065308E311C70FA1570A4CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4964981455171551068F9BF4 /* Pods-LSCreditCardForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCreditCardForm_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FB5D0A91EDAEB2B8C63D6F2 /* Pods_LSCreditCardForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSCreditCardForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LSCreditCardForm_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSCreditCardForm_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EC3D5A45DFEB73F29984248 /* Pods-LSCreditCardForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCreditCardForm_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		97C0E85AC21DFEF3B7108A93 /* Pods_LSCreditCardForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSCreditCardForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAEC03F05A37A14188841A1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EED37B7225226A39E3B1BB5F /* LSCreditCardForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LSCreditCardForm.podspec; path = ../LSCreditCardForm.podspec; sourceTree = "<group>"; };
+		AAEC03F05A37A14188841A1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EED37B7225226A39E3B1BB5F /* LSCreditCardForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSCreditCardForm.podspec; path = ../LSCreditCardForm.podspec; sourceTree = "<group>"; };
+		F4C074E62079074C004AD9B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		FB842F58F473C460B0D91F72 /* Pods-LSCreditCardForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCreditCardForm_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE748CAC038FB090003705F9 /* Pods-LSCreditCardForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCreditCardForm_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +120,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				F4C074E62079074C004AD9B1 /* README.md */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for LSCreditCardForm";
@@ -215,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YCJFC623N4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YCJFC623N4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -250,6 +255,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				F4C074E72079074C004AD9B1 /* README.md in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,10 +523,11 @@
 			baseConfigurationReference = 7EC3D5A45DFEB73F29984248 /* Pods-LSCreditCardForm_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YCJFC623N4;
 				INFOPLIST_FILE = LSCreditCardForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lb.LSCreditCardForm-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -532,10 +539,11 @@
 			baseConfigurationReference = 4964981455171551068F9BF4 /* Pods-LSCreditCardForm_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YCJFC623N4;
 				INFOPLIST_FILE = LSCreditCardForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lb.LSCreditCardForm-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -546,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE748CAC038FB090003705F9 /* Pods-LSCreditCardForm_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YCJFC623N4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB842F58F473C460B0D91F72 /* Pods-LSCreditCardForm_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YCJFC623N4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
