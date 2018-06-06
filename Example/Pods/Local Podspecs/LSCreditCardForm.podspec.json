@@ -19,9 +19,8 @@
     "ios": "8.0"
   },
   "source_files": "LSCreditCardForm/Classes/**/*",
-  "resource_bundles": {
-    "LSCreditCardForm": [
-      "LSCreditCardForm/Assets/**/*"
-    ]
-  }
+  "resources": [
+    "LSCreditCardForm/Assets/*.xcassets",
+    "LSCreditCardForm/Assets/CreditCard.ttf"
+  ]
 }

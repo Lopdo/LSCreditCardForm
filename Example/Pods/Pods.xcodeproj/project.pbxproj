@@ -7,114 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19AC88D6F882925F070A0A05A17849BD /* LSTextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378AE7234EE6AEF825A3C5D3862ECAFD /* LSTextFieldsView.swift */; };
-		1C43BF800487EBFA2B952F7DAA12A7E0 /* LSViewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2025CE92007966D17B7182E6CDD29EC /* LSViewsCoordinator.swift */; };
-		2A6677862A910168037432F5636DBAD6 /* Pods-LSCreditCardForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D2372B3252070464FBC14BEEE80C09 /* Pods-LSCreditCardForm_Example-dummy.m */; };
-		35FBE6F550F858A523491BDC24CA0D11 /* Pods-LSCreditCardForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F0D3C2C4645DF155BBBB9247D65081 /* Pods-LSCreditCardForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49208EF1211544C7A91317B330A95360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5F83F08FD0DBE555743159741025C966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5FF941430DFD2C0CE0437A1AC9EBC3E2 /* LSCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A12C1D653DDF6385427B066D17CA3 /* LSCreditCardView.swift */; };
-		610E6D792108741E11D62F26F977D009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEEC8A1D815DE077342405F126B9824 /* Images.xcassets */; };
-		69C188E99433893BB13C85DE7CF68E61 /* LSCreditCardForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA59A2524A39221262929171BDEC0B2 /* LSCreditCardForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BCCBEE0FACB257478676EA9C1CFCA23 /* LSButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7359771D2F4AB6F2BEBD9615F4C8348 /* LSButtonsView.swift */; };
-		75002BCE59A46E3431A33F3A5CDEF33C /* LSCreditCardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30E54A2D2E494BF8B6EC5AA6DF0D9 /* LSCreditCardFont.swift */; };
-		79D8BD38F42D76FE6FDBACA85FDCCD1B /* LSCreditCardFormConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD79D05D26EC7CF4A0609278E765229 /* LSCreditCardFormConfig.swift */; };
-		9DE3CF77D50A3F36358E9BAEF48DCE27 /* CreditCard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F99476D9039D11043CC00A58024FE7 /* CreditCard.ttf */; };
-		AF4814C8B1600AEC27BA4ACB6E6BFFB0 /* Pods-LSCreditCardForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB552C409B702D43AB497772EAA5F37 /* Pods-LSCreditCardForm_Tests-dummy.m */; };
-		C608822D4A9040B9EA6A1092A2107247 /* LSCreditCardForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB32320673DB3934D439BE74311332 /* LSCreditCardForm-dummy.m */; };
-		C805D3A997AA466177DB838124D65769 /* LSCreditCardForm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37D99714A66FDDAF6C1AB3C6830952EB /* LSCreditCardForm.bundle */; };
-		CE5D72E36A405D56C02F8271B51A8307 /* LSCreditCardWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33323172FF7E59979F8E83DF9344192D /* LSCreditCardWrapperView.swift */; };
-		D36B22DB1C43057E7CD37867D8858427 /* LSCreditCardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC142125FB667C90BE2DEE88591B1EC /* LSCreditCardFormView.swift */; };
-		DC1B7E6841E94D5A1AFC0CD817835F29 /* Pods-LSCreditCardForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA112654F316E512A6AAD1232E1CD284 /* Pods-LSCreditCardForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD4E8218C308DB30B74A0B8C3B629301 /* LSCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A75F3D623DC0C78B2F5F976C2690B /* LSCreditCard.swift */; };
+		014CE5DB04389F2B5D70EA0CD1A28204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED60E88D149982633EBC0D677E72AF27 /* Images.xcassets */; };
+		19E2BE90D37A4AC7D9F7ACB54877F2BE /* LSButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0A4CC61C63B0029A032C3E930FFFA /* LSButtonsView.swift */; };
+		1C0735C66FFBC7B72B14B80F92A2CDE9 /* LSCreditCardForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B767A71103EBCB6E9671A09C77F011CD /* LSCreditCardForm-dummy.m */; };
+		1FA9B020A0454A418C627F27225EED80 /* LSViewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B915CA0A856F21921B585CFE026DD /* LSViewsCoordinator.swift */; };
+		2A6677862A910168037432F5636DBAD6 /* Pods-LSCreditCardForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B78358AA18E2DE17CD73B3815561578B /* Pods-LSCreditCardForm_Example-dummy.m */; };
+		4585DC2FF1A9C58EC9C01085B77200AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6A58C55360585D5190460C315556DB66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		73B99D0EC44BAA321EE40EE32C77AF66 /* LSCreditCardFormConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A36D00AA15C52002B0255490C1E436 /* LSCreditCardFormConfig.swift */; };
+		8E67DBAC46232D4E5B07A72B33B7FE44 /* LSTextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C9941084FBAF2748726253EE193A2 /* LSTextFieldsView.swift */; };
+		9D865A57C9EE60F7207B2D9238663BBD /* LSCreditCardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269824D50B2A41027645677CC85DBAC /* LSCreditCardFont.swift */; };
+		ACE6930BF8D6EE6EFEB1638034FBB0C3 /* LSCreditCardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997D4150E5A232979210A9F40783C6C /* LSCreditCardFormView.swift */; };
+		AFF69FA6F9AF7D9C701C98FA04FDE945 /* Pods-LSCreditCardForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D71661F8AF91399BE3DF5799EC802675 /* Pods-LSCreditCardForm_Tests-dummy.m */; };
+		B7A08C01F980F700B823DC4C80EB6E35 /* LSCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70803CF40702F5F7B8C6FE812ABF16C3 /* LSCreditCard.swift */; };
+		B8AE827D3FFD03FDE6104F5179A29A25 /* Pods-LSCreditCardForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB82F1C7F225C2FFF131991FA5AE11B /* Pods-LSCreditCardForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F090A1D20CFAFEDECA0384771AAA57 /* LSCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D95A0E23DC65CB7ECD745EF2A8791 /* LSCreditCardView.swift */; };
+		C47E17E765A576BF5D989EB7623F2038 /* LSCreditCardForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5911D58991DFC4D792A2E780090CF88D /* LSCreditCardForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25809843DD9ABC2B881D97ECE78F26E /* CreditCard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4ACFC99DA0621B69B83392204D55A30 /* CreditCard.ttf */; };
+		D4B7BB7448FB750A7F0511A54E435399 /* LSCreditCardWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D1481B6451FAF7FF1B23AF34B6D20 /* LSCreditCardWrapperView.swift */; };
+		DC1B7E6841E94D5A1AFC0CD817835F29 /* Pods-LSCreditCardForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F5D43EF807C5EBF2842E7D481E06A7 /* Pods-LSCreditCardForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7F9B015FD7ADE3F716800FD4F542139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		01082607DADC4B9F71B5A734EEBB7CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAD1D13FA765B731057329E879D6EB2;
+			remoteInfo = "Pods-LSCreditCardForm_Example";
+		};
 		516FFF220E2C3F12FEBBCC7F0CAE9981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FFFCD7701C30362F422013A6B3BB010C;
+			remoteGlobalIDString = ACB40C5D383FB113AA1BF0684AF81A47;
 			remoteInfo = LSCreditCardForm;
-		};
-		EFE6ADE6E90A924081AABDBFB4846DAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2901697F58D6FCC85E0525B5DB08D45E;
-			remoteInfo = "LSCreditCardForm-LSCreditCardForm";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F0D3C2C4645DF155BBBB9247D65081 /* Pods-LSCreditCardForm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSCreditCardForm_Tests-umbrella.h"; sourceTree = "<group>"; };
-		086274BE73081FD09EDF6B01A5D5AAFA /* Pods-LSCreditCardForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0CA59A2524A39221262929171BDEC0B2 /* LSCreditCardForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSCreditCardForm-umbrella.h"; sourceTree = "<group>"; };
-		117048ED91455788DE18DF08CA6E96AB /* Pods-LSCreditCardForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		13F99476D9039D11043CC00A58024FE7 /* CreditCard.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = CreditCard.ttf; path = LSCreditCardForm/Assets/CreditCard.ttf; sourceTree = "<group>"; };
-		17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSCreditCardForm.xcconfig; sourceTree = "<group>"; };
-		1EC5E2D3CCDFD6E2C763037CB96CEAA1 /* Pods-LSCreditCardForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		25F893BFFFE01EB66E8B5F1B34CB33FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E263051CBB450459E09F06A3500F5A8 /* Pods-LSCreditCardForm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSCreditCardForm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33323172FF7E59979F8E83DF9344192D /* LSCreditCardWrapperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardWrapperView.swift; path = LSCreditCardForm/Classes/LSCreditCardWrapperView.swift; sourceTree = "<group>"; };
-		378AE7234EE6AEF825A3C5D3862ECAFD /* LSTextFieldsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSTextFieldsView.swift; path = LSCreditCardForm/Classes/LSTextFieldsView.swift; sourceTree = "<group>"; };
-		37D99714A66FDDAF6C1AB3C6830952EB /* LSCreditCardForm.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LSCreditCardForm.bundle; path = "LSCreditCardForm-LSCreditCardForm.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA7CE1A38C054D7F21C71A196C9A035 /* Pods-LSCreditCardForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D8DC78B64E3A483CCBD3379B949C87D /* Pods_LSCreditCardForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSCreditCardForm_Example.framework; path = "Pods-LSCreditCardForm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4254A45D034657195E8ED0FD3565D60E /* Pods-LSCreditCardForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSCreditCardForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		490934C8D2717CAA6A4FA4AC301F06A7 /* Pods-LSCreditCardForm_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4BB552C409B702D43AB497772EAA5F37 /* Pods-LSCreditCardForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSCreditCardForm_Tests-dummy.m"; sourceTree = "<group>"; };
-		4BEEC8A1D815DE077342405F126B9824 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LSCreditCardForm/Assets/Images.xcassets; sourceTree = "<group>"; };
-		4C4DA4A66815EA54D6E5148BB61FC963 /* LSCreditCardForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSCreditCardForm-prefix.pch"; sourceTree = "<group>"; };
-		54637E625913799DFC4C2CB7A1FB4ADF /* Pods-LSCreditCardForm_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Example-resources.sh"; sourceTree = "<group>"; };
-		5AC142125FB667C90BE2DEE88591B1EC /* LSCreditCardFormView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFormView.swift; path = LSCreditCardForm/Classes/LSCreditCardFormView.swift; sourceTree = "<group>"; };
+		090D92ACAED5590F4AB3E2C088A3E1DA /* LSCreditCardForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSCreditCardForm-prefix.pch"; sourceTree = "<group>"; };
+		0E1C9941084FBAF2748726253EE193A2 /* LSTextFieldsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSTextFieldsView.swift; path = LSCreditCardForm/Classes/LSTextFieldsView.swift; sourceTree = "<group>"; };
+		12746FF576B99620B933BE1B72F33640 /* LSCreditCardForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSCreditCardForm.modulemap; sourceTree = "<group>"; };
+		1B6670803A70C2B6A35BBBD02991ACED /* Pods_LSCreditCardForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSCreditCardForm_Example.framework; path = "Pods-LSCreditCardForm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5796A7CC8CB208D89F67D7BDF01797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		274529CE8607A59248B9A1D65102B66D /* Pods-LSCreditCardForm_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3AB82F1C7F225C2FFF131991FA5AE11B /* Pods-LSCreditCardForm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSCreditCardForm_Tests-umbrella.h"; sourceTree = "<group>"; };
+		420B915CA0A856F21921B585CFE026DD /* LSViewsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSViewsCoordinator.swift; path = LSCreditCardForm/Classes/LSViewsCoordinator.swift; sourceTree = "<group>"; };
+		4835E0DA4582896A0D862642C586573A /* Pods-LSCreditCardForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Example-frameworks.sh"; sourceTree = "<group>"; };
+		512D1481B6451FAF7FF1B23AF34B6D20 /* LSCreditCardWrapperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardWrapperView.swift; path = LSCreditCardForm/Classes/LSCreditCardWrapperView.swift; sourceTree = "<group>"; };
+		5552974F2FEA2568E848FBF69EBDE22B /* Pods-LSCreditCardForm_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Example-resources.sh"; sourceTree = "<group>"; };
+		5911D58991DFC4D792A2E780090CF88D /* LSCreditCardForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSCreditCardForm-umbrella.h"; sourceTree = "<group>"; };
+		5AE0A4CC61C63B0029A032C3E930FFFA /* LSButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSButtonsView.swift; path = LSCreditCardForm/Classes/LSButtonsView.swift; sourceTree = "<group>"; };
+		5C2FF3A5032292FF18528FEFEB341497 /* LSCreditCardForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LSCreditCardForm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FB11976446DBDABE724BDF8A6DF8F76 /* Pods-LSCreditCardForm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSCreditCardForm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		61237A720DC4D498CD6D21A8AA1C45C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BD79D05D26EC7CF4A0609278E765229 /* LSCreditCardFormConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFormConfig.swift; path = LSCreditCardForm/Classes/LSCreditCardFormConfig.swift; sourceTree = "<group>"; };
-		7BF4B8397C046D7E948795F42B0C58D8 /* LSCreditCardForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LSCreditCardForm.modulemap; sourceTree = "<group>"; };
-		7EBBF6A2B18E362441B9BBDE77709E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		856AE1FA28A06D3D5E0E9ED7BE1A1BD8 /* Pods-LSCreditCardForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSCreditCardForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B0709EDB255685D2CE62E234CA2290C /* LSCreditCardForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSCreditCardForm.framework; path = LSCreditCardForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BA33A96AD9C052446FEAE2248A0439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D3D825B51DCF7975EB35F53614ECC7C /* Pods_LSCreditCardForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSCreditCardForm_Tests.framework; path = "Pods-LSCreditCardForm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70803CF40702F5F7B8C6FE812ABF16C3 /* LSCreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCard.swift; path = LSCreditCardForm/Classes/LSCreditCard.swift; sourceTree = "<group>"; };
+		793C05A5DB39CEC5DB3E2C9048578D26 /* LSCreditCardForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSCreditCardForm.framework; path = LSCreditCardForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8047FB731EE6895C218F2264D6E69F1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8269824D50B2A41027645677CC85DBAC /* LSCreditCardFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFont.swift; path = LSCreditCardForm/Classes/LSCreditCardFont.swift; sourceTree = "<group>"; };
+		85F5D43EF807C5EBF2842E7D481E06A7 /* Pods-LSCreditCardForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSCreditCardForm_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		952A12C1D653DDF6385427B066D17CA3 /* LSCreditCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardView.swift; path = LSCreditCardForm/Classes/LSCreditCardView.swift; sourceTree = "<group>"; };
-		A2025CE92007966D17B7182E6CDD29EC /* LSViewsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSViewsCoordinator.swift; path = LSCreditCardForm/Classes/LSViewsCoordinator.swift; sourceTree = "<group>"; };
-		A30184F31F3DC7A0632298DABD29C73A /* Pods-LSCreditCardForm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSCreditCardForm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7359771D2F4AB6F2BEBD9615F4C8348 /* LSButtonsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSButtonsView.swift; path = LSCreditCardForm/Classes/LSButtonsView.swift; sourceTree = "<group>"; };
-		AA112654F316E512A6AAD1232E1CD284 /* Pods-LSCreditCardForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSCreditCardForm_Example-umbrella.h"; sourceTree = "<group>"; };
-		BF9A75F3D623DC0C78B2F5F976C2690B /* LSCreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCard.swift; path = LSCreditCardForm/Classes/LSCreditCard.swift; sourceTree = "<group>"; };
-		CFDEA7CCF4CB9672496C981349C9B570 /* Pods-LSCreditCardForm_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Tests-resources.sh"; sourceTree = "<group>"; };
-		D026E0DE9CDF9E0C997BFAE77AE83D15 /* Pods_LSCreditCardForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSCreditCardForm_Tests.framework; path = "Pods-LSCreditCardForm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5645B8D77588D6F03B76FAC33C0DB7D /* Pods-LSCreditCardForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LSCreditCardForm_Tests.modulemap"; sourceTree = "<group>"; };
-		E8A6A11489B3B7496B8638F66A2DEA6D /* ResourceBundle-LSCreditCardForm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LSCreditCardForm-Info.plist"; sourceTree = "<group>"; };
-		E8F30E54A2D2E494BF8B6EC5AA6DF0D9 /* LSCreditCardFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFont.swift; path = LSCreditCardForm/Classes/LSCreditCardFont.swift; sourceTree = "<group>"; };
-		EDEE8BFCFC6644C870F7543CFE10F328 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F05271F68756B70E6E2FE99E91B04321 /* Pods-LSCreditCardForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F8D2372B3252070464FBC14BEEE80C09 /* Pods-LSCreditCardForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSCreditCardForm_Example-dummy.m"; sourceTree = "<group>"; };
-		F91EFBFBECACB2818FC3D41D352A206E /* Pods-LSCreditCardForm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LSCreditCardForm_Example.modulemap"; sourceTree = "<group>"; };
-		FCCB32320673DB3934D439BE74311332 /* LSCreditCardForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSCreditCardForm-dummy.m"; sourceTree = "<group>"; };
+		96A36D00AA15C52002B0255490C1E436 /* LSCreditCardFormConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFormConfig.swift; path = LSCreditCardForm/Classes/LSCreditCardFormConfig.swift; sourceTree = "<group>"; };
+		A3DDA10DFABEFC85EE4F1FBEE17DC151 /* Pods-LSCreditCardForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A49E31259E62A3FA0C7373637231F044 /* LSCreditCardForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSCreditCardForm.xcconfig; sourceTree = "<group>"; };
+		AA72FF9CE390E160C6B07E9F198BEBBC /* Pods-LSCreditCardForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF155810F227B31C12675414347C2794 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4ACFC99DA0621B69B83392204D55A30 /* CreditCard.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = CreditCard.ttf; path = LSCreditCardForm/Assets/CreditCard.ttf; sourceTree = "<group>"; };
+		B767A71103EBCB6E9671A09C77F011CD /* LSCreditCardForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSCreditCardForm-dummy.m"; sourceTree = "<group>"; };
+		B78358AA18E2DE17CD73B3815561578B /* Pods-LSCreditCardForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSCreditCardForm_Example-dummy.m"; sourceTree = "<group>"; };
+		B8D41A634D03C3416D205ABDDE12E22D /* Pods-LSCreditCardForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA31EBD7E9F921F0398AFE771953AAA3 /* Pods-LSCreditCardForm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSCreditCardForm_Example.modulemap"; sourceTree = "<group>"; };
+		BA5D6C019F3ADBE2F3DF0FF3722178F8 /* Pods-LSCreditCardForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSCreditCardForm_Tests.modulemap"; sourceTree = "<group>"; };
+		BBC0A310E774E936DB1E5129140AC6E9 /* Pods-LSCreditCardForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSCreditCardForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71661F8AF91399BE3DF5799EC802675 /* Pods-LSCreditCardForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSCreditCardForm_Tests-dummy.m"; sourceTree = "<group>"; };
+		DAF7BBBBFD08CD0511314E2E0785D6D9 /* Pods-LSCreditCardForm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSCreditCardForm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE8018D916DCDDF42E04AF72C2F37876 /* Pods-LSCreditCardForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSCreditCardForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2DFECACD35C961DC546828F3D9B0DB8 /* Pods-LSCreditCardForm_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSCreditCardForm_Tests-resources.sh"; sourceTree = "<group>"; };
+		ED60E88D149982633EBC0D677E72AF27 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LSCreditCardForm/Assets/Images.xcassets; sourceTree = "<group>"; };
+		F01D95A0E23DC65CB7ECD745EF2A8791 /* LSCreditCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardView.swift; path = LSCreditCardForm/Classes/LSCreditCardView.swift; sourceTree = "<group>"; };
+		F997D4150E5A232979210A9F40783C6C /* LSCreditCardFormView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSCreditCardFormView.swift; path = LSCreditCardForm/Classes/LSCreditCardFormView.swift; sourceTree = "<group>"; };
+		FD06CCC63093FCC681204E1AB3B71634 /* Pods-LSCreditCardForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSCreditCardForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E87DF465B67EE3F3D5CBD7FA21A3ED3 /* Frameworks */ = {
+		78932E352145349BBD23C885B3F3D5ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F83F08FD0DBE555743159741025C966 /* Foundation.framework in Frameworks */,
+				4585DC2FF1A9C58EC9C01085B77200AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FAF49AA0CAD0AF3B3027BD5A4BB699E /* Frameworks */ = {
+		8874B4F43FB4BEA3C288682FE2979880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95A3AD38BA0CE070483A696781A79F48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49208EF1211544C7A91317B330A95360 /* Foundation.framework in Frameworks */,
+				6A58C55360585D5190460C315556DB66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,93 +122,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		226F61EEA10BE90C9F3FBC0B770A8B0C /* Resources */ = {
+		2F0E007E49BDAF8E4032E91C3EEA71E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13F99476D9039D11043CC00A58024FE7 /* CreditCard.ttf */,
-				4BEEC8A1D815DE077342405F126B9824 /* Images.xcassets */,
+				793C05A5DB39CEC5DB3E2C9048578D26 /* LSCreditCardForm.framework */,
+				1B6670803A70C2B6A35BBBD02991ACED /* Pods_LSCreditCardForm_Example.framework */,
+				6D3D825B51DCF7975EB35F53614ECC7C /* Pods_LSCreditCardForm_Tests.framework */,
 			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		601F76D343123C31B77A7096B6E021D6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CFE8D79A4F7575B612B2412FFA0F535 /* Pods-LSCreditCardForm_Example */,
-				D3B6F7603EB9A210A6BE4900F3579A56 /* Pods-LSCreditCardForm_Tests */,
+				A3C21563C0F827FCB1C57745323A9ED5 /* Pods-LSCreditCardForm_Example */,
+				BCE749FB280ECE0CCE971AAC00AF4B6E /* Pods-LSCreditCardForm_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		688F6A981799F952F195383514ED11B0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				884521E9C86D6359DC10B00C7DA7D540 /* LSCreditCardForm */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				688F6A981799F952F195383514ED11B0 /* Development Pods */,
+				BBBD9BB68C3CBE6E0CF06D2F0B7704E0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E941094FDC61D73337A6D8FB069CA3AD /* Products */,
+				2F0E007E49BDAF8E4032E91C3EEA71E6 /* Products */,
 				601F76D343123C31B77A7096B6E021D6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		817583DEE58320E8C76184AB047B9065 /* Support Files */ = {
+		9E92FA445FCAC50BD873595C0092E0C1 /* LSCreditCardForm */ = {
 			isa = PBXGroup;
 			children = (
-				25F893BFFFE01EB66E8B5F1B34CB33FF /* Info.plist */,
-				7BF4B8397C046D7E948795F42B0C58D8 /* LSCreditCardForm.modulemap */,
-				17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */,
-				FCCB32320673DB3934D439BE74311332 /* LSCreditCardForm-dummy.m */,
-				4C4DA4A66815EA54D6E5148BB61FC963 /* LSCreditCardForm-prefix.pch */,
-				0CA59A2524A39221262929171BDEC0B2 /* LSCreditCardForm-umbrella.h */,
-				E8A6A11489B3B7496B8638F66A2DEA6D /* ResourceBundle-LSCreditCardForm-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LSCreditCardForm";
-			sourceTree = "<group>";
-		};
-		884521E9C86D6359DC10B00C7DA7D540 /* LSCreditCardForm */ = {
-			isa = PBXGroup;
-			children = (
-				A7359771D2F4AB6F2BEBD9615F4C8348 /* LSButtonsView.swift */,
-				BF9A75F3D623DC0C78B2F5F976C2690B /* LSCreditCard.swift */,
-				E8F30E54A2D2E494BF8B6EC5AA6DF0D9 /* LSCreditCardFont.swift */,
-				7BD79D05D26EC7CF4A0609278E765229 /* LSCreditCardFormConfig.swift */,
-				5AC142125FB667C90BE2DEE88591B1EC /* LSCreditCardFormView.swift */,
-				952A12C1D653DDF6385427B066D17CA3 /* LSCreditCardView.swift */,
-				33323172FF7E59979F8E83DF9344192D /* LSCreditCardWrapperView.swift */,
-				378AE7234EE6AEF825A3C5D3862ECAFD /* LSTextFieldsView.swift */,
-				A2025CE92007966D17B7182E6CDD29EC /* LSViewsCoordinator.swift */,
-				226F61EEA10BE90C9F3FBC0B770A8B0C /* Resources */,
-				817583DEE58320E8C76184AB047B9065 /* Support Files */,
+				5AE0A4CC61C63B0029A032C3E930FFFA /* LSButtonsView.swift */,
+				70803CF40702F5F7B8C6FE812ABF16C3 /* LSCreditCard.swift */,
+				8269824D50B2A41027645677CC85DBAC /* LSCreditCardFont.swift */,
+				96A36D00AA15C52002B0255490C1E436 /* LSCreditCardFormConfig.swift */,
+				F997D4150E5A232979210A9F40783C6C /* LSCreditCardFormView.swift */,
+				F01D95A0E23DC65CB7ECD745EF2A8791 /* LSCreditCardView.swift */,
+				512D1481B6451FAF7FF1B23AF34B6D20 /* LSCreditCardWrapperView.swift */,
+				0E1C9941084FBAF2748726253EE193A2 /* LSTextFieldsView.swift */,
+				420B915CA0A856F21921B585CFE026DD /* LSViewsCoordinator.swift */,
+				F4308CF45E1F76EBD525EC9A89AA0B49 /* Pod */,
+				DB1D5CE6D7B9620C193C0BD9EF37275D /* Resources */,
+				E2A7D18DC07E41BB92532215E70FC128 /* Support Files */,
 			);
 			name = LSCreditCardForm;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9CFE8D79A4F7575B612B2412FFA0F535 /* Pods-LSCreditCardForm_Example */ = {
+		A3C21563C0F827FCB1C57745323A9ED5 /* Pods-LSCreditCardForm_Example */ = {
 			isa = PBXGroup;
 			children = (
-				EDEE8BFCFC6644C870F7543CFE10F328 /* Info.plist */,
-				F91EFBFBECACB2818FC3D41D352A206E /* Pods-LSCreditCardForm_Example.modulemap */,
-				2E263051CBB450459E09F06A3500F5A8 /* Pods-LSCreditCardForm_Example-acknowledgements.markdown */,
-				A30184F31F3DC7A0632298DABD29C73A /* Pods-LSCreditCardForm_Example-acknowledgements.plist */,
-				F8D2372B3252070464FBC14BEEE80C09 /* Pods-LSCreditCardForm_Example-dummy.m */,
-				F05271F68756B70E6E2FE99E91B04321 /* Pods-LSCreditCardForm_Example-frameworks.sh */,
-				54637E625913799DFC4C2CB7A1FB4ADF /* Pods-LSCreditCardForm_Example-resources.sh */,
-				AA112654F316E512A6AAD1232E1CD284 /* Pods-LSCreditCardForm_Example-umbrella.h */,
-				1EC5E2D3CCDFD6E2C763037CB96CEAA1 /* Pods-LSCreditCardForm_Example.debug.xcconfig */,
-				3BA7CE1A38C054D7F21C71A196C9A035 /* Pods-LSCreditCardForm_Example.release.xcconfig */,
+				8047FB731EE6895C218F2264D6E69F1F /* Info.plist */,
+				BA31EBD7E9F921F0398AFE771953AAA3 /* Pods-LSCreditCardForm_Example.modulemap */,
+				DAF7BBBBFD08CD0511314E2E0785D6D9 /* Pods-LSCreditCardForm_Example-acknowledgements.markdown */,
+				5FB11976446DBDABE724BDF8A6DF8F76 /* Pods-LSCreditCardForm_Example-acknowledgements.plist */,
+				B78358AA18E2DE17CD73B3815561578B /* Pods-LSCreditCardForm_Example-dummy.m */,
+				4835E0DA4582896A0D862642C586573A /* Pods-LSCreditCardForm_Example-frameworks.sh */,
+				5552974F2FEA2568E848FBF69EBDE22B /* Pods-LSCreditCardForm_Example-resources.sh */,
+				85F5D43EF807C5EBF2842E7D481E06A7 /* Pods-LSCreditCardForm_Example-umbrella.h */,
+				AA72FF9CE390E160C6B07E9F198BEBBC /* Pods-LSCreditCardForm_Example.debug.xcconfig */,
+				A3DDA10DFABEFC85EE4F1FBEE17DC151 /* Pods-LSCreditCardForm_Example.release.xcconfig */,
 			);
 			name = "Pods-LSCreditCardForm_Example";
 			path = "Target Support Files/Pods-LSCreditCardForm_Example";
+			sourceTree = "<group>";
+		};
+		BBBD9BB68C3CBE6E0CF06D2F0B7704E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E92FA445FCAC50BD873595C0092E0C1 /* LSCreditCardForm */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -226,6 +206,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BCE749FB280ECE0CCE971AAC00AF4B6E /* Pods-LSCreditCardForm_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF155810F227B31C12675414347C2794 /* Info.plist */,
+				BA5D6C019F3ADBE2F3DF0FF3722178F8 /* Pods-LSCreditCardForm_Tests.modulemap */,
+				DE8018D916DCDDF42E04AF72C2F37876 /* Pods-LSCreditCardForm_Tests-acknowledgements.markdown */,
+				FD06CCC63093FCC681204E1AB3B71634 /* Pods-LSCreditCardForm_Tests-acknowledgements.plist */,
+				D71661F8AF91399BE3DF5799EC802675 /* Pods-LSCreditCardForm_Tests-dummy.m */,
+				274529CE8607A59248B9A1D65102B66D /* Pods-LSCreditCardForm_Tests-frameworks.sh */,
+				E2DFECACD35C961DC546828F3D9B0DB8 /* Pods-LSCreditCardForm_Tests-resources.sh */,
+				3AB82F1C7F225C2FFF131991FA5AE11B /* Pods-LSCreditCardForm_Tests-umbrella.h */,
+				BBC0A310E774E936DB1E5129140AC6E9 /* Pods-LSCreditCardForm_Tests.debug.xcconfig */,
+				B8D41A634D03C3416D205ABDDE12E22D /* Pods-LSCreditCardForm_Tests.release.xcconfig */,
+			);
+			name = "Pods-LSCreditCardForm_Tests";
+			path = "Target Support Files/Pods-LSCreditCardForm_Tests";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,51 +232,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D3B6F7603EB9A210A6BE4900F3579A56 /* Pods-LSCreditCardForm_Tests */ = {
+		DB1D5CE6D7B9620C193C0BD9EF37275D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7EBBF6A2B18E362441B9BBDE77709E03 /* Info.plist */,
-				E5645B8D77588D6F03B76FAC33C0DB7D /* Pods-LSCreditCardForm_Tests.modulemap */,
-				856AE1FA28A06D3D5E0E9ED7BE1A1BD8 /* Pods-LSCreditCardForm_Tests-acknowledgements.markdown */,
-				4254A45D034657195E8ED0FD3565D60E /* Pods-LSCreditCardForm_Tests-acknowledgements.plist */,
-				4BB552C409B702D43AB497772EAA5F37 /* Pods-LSCreditCardForm_Tests-dummy.m */,
-				490934C8D2717CAA6A4FA4AC301F06A7 /* Pods-LSCreditCardForm_Tests-frameworks.sh */,
-				CFDEA7CCF4CB9672496C981349C9B570 /* Pods-LSCreditCardForm_Tests-resources.sh */,
-				01F0D3C2C4645DF155BBBB9247D65081 /* Pods-LSCreditCardForm_Tests-umbrella.h */,
-				086274BE73081FD09EDF6B01A5D5AAFA /* Pods-LSCreditCardForm_Tests.debug.xcconfig */,
-				117048ED91455788DE18DF08CA6E96AB /* Pods-LSCreditCardForm_Tests.release.xcconfig */,
+				B4ACFC99DA0621B69B83392204D55A30 /* CreditCard.ttf */,
+				ED60E88D149982633EBC0D677E72AF27 /* Images.xcassets */,
 			);
-			name = "Pods-LSCreditCardForm_Tests";
-			path = "Target Support Files/Pods-LSCreditCardForm_Tests";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		E941094FDC61D73337A6D8FB069CA3AD /* Products */ = {
+		E2A7D18DC07E41BB92532215E70FC128 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37D99714A66FDDAF6C1AB3C6830952EB /* LSCreditCardForm.bundle */,
-				8B0709EDB255685D2CE62E234CA2290C /* LSCreditCardForm.framework */,
-				3D8DC78B64E3A483CCBD3379B949C87D /* Pods_LSCreditCardForm_Example.framework */,
-				D026E0DE9CDF9E0C997BFAE77AE83D15 /* Pods_LSCreditCardForm_Tests.framework */,
+				61237A720DC4D498CD6D21A8AA1C45C4 /* Info.plist */,
+				12746FF576B99620B933BE1B72F33640 /* LSCreditCardForm.modulemap */,
+				A49E31259E62A3FA0C7373637231F044 /* LSCreditCardForm.xcconfig */,
+				B767A71103EBCB6E9671A09C77F011CD /* LSCreditCardForm-dummy.m */,
+				090D92ACAED5590F4AB3E2C088A3E1DA /* LSCreditCardForm-prefix.pch */,
+				5911D58991DFC4D792A2E780090CF88D /* LSCreditCardForm-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LSCreditCardForm";
+			sourceTree = "<group>";
+		};
+		F4308CF45E1F76EBD525EC9A89AA0B49 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D5796A7CC8CB208D89F67D7BDF01797 /* LICENSE */,
+				5C2FF3A5032292FF18528FEFEB341497 /* LSCreditCardForm.podspec */,
+				67BA33A96AD9C052446FEAE2248A0439 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C92E42C40ADF8CFC1A10137C469A64C /* Headers */ = {
+		47DC512557CBFBB269BD5452D5060165 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C188E99433893BB13C85DE7CF68E61 /* LSCreditCardForm-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D456B475A20F61E2F87AA8C14622ED0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35FBE6F550F858A523491BDC24CA0D11 /* Pods-LSCreditCardForm_Tests-umbrella.h in Headers */,
+				C47E17E765A576BF5D989EB7623F2038 /* LSCreditCardForm-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,42 +284,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A607869B55D5D4BE9056816E81CCEBC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AE827D3FFD03FDE6104F5179A29A25 /* Pods-LSCreditCardForm_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		180A0017D0D159EB465B47B7953091A4 /* Pods-LSCreditCardForm_Tests */ = {
+		ACB40C5D383FB113AA1BF0684AF81A47 /* LSCreditCardForm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 803B5FE2FD72C68A9F233FC9F3567603 /* Build configuration list for PBXNativeTarget "Pods-LSCreditCardForm_Tests" */;
+			buildConfigurationList = 8EED44544E895A56AA3670FECBC10AA8 /* Build configuration list for PBXNativeTarget "LSCreditCardForm" */;
 			buildPhases = (
-				A46D48A7B9DAC2E6E81150ED400FCE5F /* Sources */,
-				95A3AD38BA0CE070483A696781A79F48 /* Frameworks */,
-				4D456B475A20F61E2F87AA8C14622ED0 /* Headers */,
+				F1CB081D5EBD9A260FAD1C750DB192BC /* Sources */,
+				8874B4F43FB4BEA3C288682FE2979880 /* Frameworks */,
+				C105DBE1315CAFBF0A58673ED1479E23 /* Resources */,
+				47DC512557CBFBB269BD5452D5060165 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = LSCreditCardForm;
+			productName = LSCreditCardForm;
+			productReference = 793C05A5DB39CEC5DB3E2C9048578D26 /* LSCreditCardForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C498A7C6959A3727EF349A9E377ED9A5 /* Pods-LSCreditCardForm_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A854879324F483105BFFC8DC7BB0C1 /* Build configuration list for PBXNativeTarget "Pods-LSCreditCardForm_Tests" */;
+			buildPhases = (
+				4A89BF51150191FEB2370A86F7CDD9C3 /* Sources */,
+				78932E352145349BBD23C885B3F3D5ED /* Frameworks */,
+				A607869B55D5D4BE9056816E81CCEBC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D5D6B4C271DC9A5185C99908376F37 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSCreditCardForm_Tests";
 			productName = "Pods-LSCreditCardForm_Tests";
-			productReference = D026E0DE9CDF9E0C997BFAE77AE83D15 /* Pods_LSCreditCardForm_Tests.framework */;
+			productReference = 6D3D825B51DCF7975EB35F53614ECC7C /* Pods_LSCreditCardForm_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		2901697F58D6FCC85E0525B5DB08D45E /* LSCreditCardForm-LSCreditCardForm */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC4E23F4C55534517243BC77D973B56D /* Build configuration list for PBXNativeTarget "LSCreditCardForm-LSCreditCardForm" */;
-			buildPhases = (
-				684E146DFE8B01B4A9A76B3886D0BD7C /* Sources */,
-				8FAF49AA0CAD0AF3B3027BD5A4BB699E /* Frameworks */,
-				F9FC88DCFE9AA06F749CCFEE2394B696 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LSCreditCardForm-LSCreditCardForm";
-			productName = "LSCreditCardForm-LSCreditCardForm";
-			productReference = 37D99714A66FDDAF6C1AB3C6830952EB /* LSCreditCardForm.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		DEAD1D13FA765B731057329E879D6EB2 /* Pods-LSCreditCardForm_Example */ = {
 			isa = PBXNativeTarget;
@@ -342,26 +346,7 @@
 			);
 			name = "Pods-LSCreditCardForm_Example";
 			productName = "Pods-LSCreditCardForm_Example";
-			productReference = 3D8DC78B64E3A483CCBD3379B949C87D /* Pods_LSCreditCardForm_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FFFCD7701C30362F422013A6B3BB010C /* LSCreditCardForm */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84B7F700FCBAC237576F4DF4395C48AC /* Build configuration list for PBXNativeTarget "LSCreditCardForm" */;
-			buildPhases = (
-				1213219578ED09AB5CE13D1435AC1BCA /* Sources */,
-				7E87DF465B67EE3F3D5CBD7FA21A3ED3 /* Frameworks */,
-				4AFB8F5331E099440E387DCA9529C698 /* Resources */,
-				4C92E42C40ADF8CFC1A10137C469A64C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D6A2CA9FF59CFF4DB637B0A63AEF087 /* PBXTargetDependency */,
-			);
-			name = LSCreditCardForm;
-			productName = LSCreditCardForm;
-			productReference = 8B0709EDB255685D2CE62E234CA2290C /* LSCreditCardForm.framework */;
+			productReference = 1B6670803A70C2B6A35BBBD02991ACED /* Pods_LSCreditCardForm_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -370,8 +355,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,68 +366,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E941094FDC61D73337A6D8FB069CA3AD /* Products */;
+			productRefGroup = 2F0E007E49BDAF8E4032E91C3EEA71E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFFCD7701C30362F422013A6B3BB010C /* LSCreditCardForm */,
-				2901697F58D6FCC85E0525B5DB08D45E /* LSCreditCardForm-LSCreditCardForm */,
+				ACB40C5D383FB113AA1BF0684AF81A47 /* LSCreditCardForm */,
 				DEAD1D13FA765B731057329E879D6EB2 /* Pods-LSCreditCardForm_Example */,
-				180A0017D0D159EB465B47B7953091A4 /* Pods-LSCreditCardForm_Tests */,
+				C498A7C6959A3727EF349A9E377ED9A5 /* Pods-LSCreditCardForm_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4AFB8F5331E099440E387DCA9529C698 /* Resources */ = {
+		C105DBE1315CAFBF0A58673ED1479E23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C805D3A997AA466177DB838124D65769 /* LSCreditCardForm.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9FC88DCFE9AA06F749CCFEE2394B696 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DE3CF77D50A3F36358E9BAEF48DCE27 /* CreditCard.ttf in Resources */,
-				610E6D792108741E11D62F26F977D009 /* Images.xcassets in Resources */,
+				D25809843DD9ABC2B881D97ECE78F26E /* CreditCard.ttf in Resources */,
+				014CE5DB04389F2B5D70EA0CD1A28204 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1213219578ED09AB5CE13D1435AC1BCA /* Sources */ = {
+		4A89BF51150191FEB2370A86F7CDD9C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BCCBEE0FACB257478676EA9C1CFCA23 /* LSButtonsView.swift in Sources */,
-				DD4E8218C308DB30B74A0B8C3B629301 /* LSCreditCard.swift in Sources */,
-				75002BCE59A46E3431A33F3A5CDEF33C /* LSCreditCardFont.swift in Sources */,
-				C608822D4A9040B9EA6A1092A2107247 /* LSCreditCardForm-dummy.m in Sources */,
-				79D8BD38F42D76FE6FDBACA85FDCCD1B /* LSCreditCardFormConfig.swift in Sources */,
-				D36B22DB1C43057E7CD37867D8858427 /* LSCreditCardFormView.swift in Sources */,
-				5FF941430DFD2C0CE0437A1AC9EBC3E2 /* LSCreditCardView.swift in Sources */,
-				CE5D72E36A405D56C02F8271B51A8307 /* LSCreditCardWrapperView.swift in Sources */,
-				19AC88D6F882925F070A0A05A17849BD /* LSTextFieldsView.swift in Sources */,
-				1C43BF800487EBFA2B952F7DAA12A7E0 /* LSViewsCoordinator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		684E146DFE8B01B4A9A76B3886D0BD7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A46D48A7B9DAC2E6E81150ED400FCE5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF4814C8B1600AEC27BA4ACB6E6BFFB0 /* Pods-LSCreditCardForm_Tests-dummy.m in Sources */,
+				AFF69FA6F9AF7D9C701C98FA04FDE945 /* Pods-LSCreditCardForm_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,28 +406,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1CB081D5EBD9A260FAD1C750DB192BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E2BE90D37A4AC7D9F7ACB54877F2BE /* LSButtonsView.swift in Sources */,
+				B7A08C01F980F700B823DC4C80EB6E35 /* LSCreditCard.swift in Sources */,
+				9D865A57C9EE60F7207B2D9238663BBD /* LSCreditCardFont.swift in Sources */,
+				1C0735C66FFBC7B72B14B80F92A2CDE9 /* LSCreditCardForm-dummy.m in Sources */,
+				73B99D0EC44BAA321EE40EE32C77AF66 /* LSCreditCardFormConfig.swift in Sources */,
+				ACE6930BF8D6EE6EFEB1638034FBB0C3 /* LSCreditCardFormView.swift in Sources */,
+				C1F090A1D20CFAFEDECA0384771AAA57 /* LSCreditCardView.swift in Sources */,
+				D4B7BB7448FB750A7F0511A54E435399 /* LSCreditCardWrapperView.swift in Sources */,
+				8E67DBAC46232D4E5B07A72B33B7FE44 /* LSTextFieldsView.swift in Sources */,
+				1FA9B020A0454A418C627F27225EED80 /* LSViewsCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D6A2CA9FF59CFF4DB637B0A63AEF087 /* PBXTargetDependency */ = {
+		67D5D6B4C271DC9A5185C99908376F37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "LSCreditCardForm-LSCreditCardForm";
-			target = 2901697F58D6FCC85E0525B5DB08D45E /* LSCreditCardForm-LSCreditCardForm */;
-			targetProxy = EFE6ADE6E90A924081AABDBFB4846DAE /* PBXContainerItemProxy */;
+			name = "Pods-LSCreditCardForm_Example";
+			target = DEAD1D13FA765B731057329E879D6EB2 /* Pods-LSCreditCardForm_Example */;
+			targetProxy = 01082607DADC4B9F71B5A734EEBB7CDE /* PBXContainerItemProxy */;
 		};
 		C00F2DFE82FF6C6F206AC0BD53DE6170 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LSCreditCardForm;
-			target = FFFCD7701C30362F422013A6B3BB010C /* LSCreditCardForm */;
+			target = ACB40C5D383FB113AA1BF0684AF81A47 /* LSCreditCardForm */;
 			targetProxy = 516FFF220E2C3F12FEBBCC7F0CAE9981 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0076EE8E3D9C7C75EE23C542C4B9B011 /* Release */ = {
+		0F4A1B33043859890E0C15B4A145257D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 117048ED91455788DE18DF08CA6E96AB /* Pods-LSCreditCardForm_Tests.release.xcconfig */;
+			baseConfigurationReference = B8D41A634D03C3416D205ABDDE12E22D /* Pods-LSCreditCardForm_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -495,7 +465,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LSCreditCardForm_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,136 +475,7 @@
 			};
 			name = Release;
 		};
-		11E648EEE978AEBAC6944CECE0D3D35C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSCreditCardForm/LSCreditCardForm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSCreditCardForm/LSCreditCardForm.modulemap";
-				PRODUCT_NAME = LSCreditCardForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		22FD74A639168ED3433DA4519FDE4B57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LSCreditCardForm";
-				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/ResourceBundle-LSCreditCardForm-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LSCreditCardForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7AFBBCE54EDE8617ACE4B00871F7F7DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSCreditCardForm/LSCreditCardForm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSCreditCardForm/LSCreditCardForm.modulemap";
-				PRODUCT_NAME = LSCreditCardForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87D0B12C0EC9F4C076E0620D8C7C5DDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C58F81EB947B0C7DD1CD2A750E8C3E /* LSCreditCardForm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LSCreditCardForm";
-				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/ResourceBundle-LSCreditCardForm-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LSCreditCardForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		9C889CFCE099524D1EB0A310B27A79EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA7CE1A38C054D7F21C71A196C9A035 /* Pods-LSCreditCardForm_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LSCreditCardForm_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -644,10 +485,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -655,6 +498,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -663,127 +507,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D5547C1696567670BFABF78A28F08582 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EC5E2D3CCDFD6E2C763037CB96CEAA1 /* Pods-LSCreditCardForm_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LSCreditCardForm_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC59E1346756FF090FC1CBDC29E9D01C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086274BE73081FD09EDF6B01A5D5AAFA /* Pods-LSCreditCardForm_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LSCreditCardForm_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -808,10 +532,235 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		281E54EF9889F8C4C0FA733D016C3CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49E31259E62A3FA0C7373637231F044 /* LSCreditCardForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSCreditCardForm/LSCreditCardForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSCreditCardForm/LSCreditCardForm.modulemap";
+				PRODUCT_MODULE_NAME = LSCreditCardForm;
+				PRODUCT_NAME = LSCreditCardForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C9C930F92BE52DC8544AC9CAE26309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA72FF9CE390E160C6B07E9F198BEBBC /* Pods-LSCreditCardForm_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44C95B1531176DD3B156BB5ABA439A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DDA10DFABEFC85EE4F1FBEE17DC151 /* Pods-LSCreditCardForm_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB95FFA2C507D36EED54798015DA83B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC0A310E774E936DB1E5129140AC6E9 /* Pods-LSCreditCardForm_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LSCreditCardForm_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6B6A1DA41656192DC1303A0F9C9440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49E31259E62A3FA0C7373637231F044 /* LSCreditCardForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSCreditCardForm/LSCreditCardForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSCreditCardForm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSCreditCardForm/LSCreditCardForm.modulemap";
+				PRODUCT_MODULE_NAME = LSCreditCardForm;
+				PRODUCT_NAME = LSCreditCardForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -821,26 +770,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		803B5FE2FD72C68A9F233FC9F3567603 /* Build configuration list for PBXNativeTarget "Pods-LSCreditCardForm_Tests" */ = {
+		80A854879324F483105BFFC8DC7BB0C1 /* Build configuration list for PBXNativeTarget "Pods-LSCreditCardForm_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC59E1346756FF090FC1CBDC29E9D01C /* Debug */,
-				0076EE8E3D9C7C75EE23C542C4B9B011 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84B7F700FCBAC237576F4DF4395C48AC /* Build configuration list for PBXNativeTarget "LSCreditCardForm" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11E648EEE978AEBAC6944CECE0D3D35C /* Debug */,
-				7AFBBCE54EDE8617ACE4B00871F7F7DC /* Release */,
+				CB95FFA2C507D36EED54798015DA83B5 /* Debug */,
+				0F4A1B33043859890E0C15B4A145257D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -848,17 +788,17 @@
 		8D92AB179948881D9870931513F385C7 /* Build configuration list for PBXNativeTarget "Pods-LSCreditCardForm_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5547C1696567670BFABF78A28F08582 /* Debug */,
-				9C889CFCE099524D1EB0A310B27A79EB /* Release */,
+				3C9C930F92BE52DC8544AC9CAE26309F /* Debug */,
+				44C95B1531176DD3B156BB5ABA439A76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC4E23F4C55534517243BC77D973B56D /* Build configuration list for PBXNativeTarget "LSCreditCardForm-LSCreditCardForm" */ = {
+		8EED44544E895A56AA3670FECBC10AA8 /* Build configuration list for PBXNativeTarget "LSCreditCardForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87D0B12C0EC9F4C076E0620D8C7C5DDE /* Debug */,
-				22FD74A639168ED3433DA4519FDE4B57 /* Release */,
+				F6B6A1DA41656192DC1303A0F9C9440D /* Debug */,
+				281E54EF9889F8C4C0FA733D016C3CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

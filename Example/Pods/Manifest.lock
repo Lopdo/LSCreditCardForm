@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   LSCreditCardForm:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  LSCreditCardForm: 9727c2e32884f09f7e64792d6c9d8a6932b3af39
+  LSCreditCardForm: 067c56f3ba0a27d5b61cce262a63398ff238daf6
 
 PODFILE CHECKSUM: 03d9bc629a1c9655a58583c8291eeeb3c44ec0a5
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.2

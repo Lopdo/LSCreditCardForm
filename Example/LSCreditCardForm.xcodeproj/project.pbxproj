@@ -174,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				AB569750BEA4BA10D070A22E /* [CP] Embed Pods Frameworks */,
-				313C41B4465A6233D26A4C55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				6759D4D96D7BABB0EDBDEE08 /* [CP] Embed Pods Frameworks */,
-				6CF89A27B18C81FE6379CC83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +215,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = YCJFC623N4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -286,51 +282,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		313C41B4465A6233D26A4C55 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCreditCardForm_Example/Pods-LSCreditCardForm_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6759D4D96D7BABB0EDBDEE08 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6CF89A27B18C81FE6379CC83 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCreditCardForm_Tests/Pods-LSCreditCardForm_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB569750BEA4BA10D070A22E /* [CP] Embed Pods Frameworks */ = {
@@ -523,7 +474,7 @@
 			baseConfigurationReference = 7EC3D5A45DFEB73F29984248 /* Pods-LSCreditCardForm_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YCJFC623N4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LSCreditCardForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -539,7 +490,7 @@
 			baseConfigurationReference = 4964981455171551068F9BF4 /* Pods-LSCreditCardForm_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YCJFC623N4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LSCreditCardForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

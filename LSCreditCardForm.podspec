@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'LSCreditCardForm'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'Simple and engaging credit card form'
 
 s.description      = <<-DESC
@@ -24,9 +24,7 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'LSCreditCardForm/Classes/**/*'
 
-s.resource_bundles = {
-'LSCreditCardForm' => ['LSCreditCardForm/Assets/**/*']
-}
+s.resources = ["LSCreditCardForm/Assets/*.xcassets", "LSCreditCardForm/Assets/CreditCard.ttf"]
 
 end
 
