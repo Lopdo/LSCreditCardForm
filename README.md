@@ -44,6 +44,10 @@ If you wish to limit which credit cards get detected, override `CreditCard.suppo
 want to detect. User will still be able to enter any credit card number, disabling detection for certain types simply means that the credit
 card image will not update and will remain on "unknown" credit card.
 
+## Keyboard
+
+If you wish to have keyboard open as soon as the view appears with new view controller, call `becomeFirstResponder` on `LSCreditCardFormView`. 
+
 ## Installation
 
 LSCreditCardForm is available through [CocoaPods](http://cocoapods.org). To install

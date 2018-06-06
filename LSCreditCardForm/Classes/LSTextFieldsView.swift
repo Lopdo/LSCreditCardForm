@@ -178,6 +178,13 @@ class LSTextFieldsView: UIView {
 
 		changingResponderFromCode = false
 	}
+
+	override public func becomeFirstResponder() -> Bool {
+		super.becomeFirstResponder()
+
+		return tfNumber.becomeFirstResponder()
+	}
+
 }
 
 extension LSTextFieldsView: UITextFieldDelegate {

@@ -63,4 +63,11 @@ public class LSCreditCardFormView: UIView {
 		addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[buttons]|", options: [], metrics: nil, views: views))
 		addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[ccWrapper][textFields(70)][buttons(50)]|", options: [], metrics: nil, views: views))
 	}
+
+	override public func becomeFirstResponder() -> Bool {
+		super.becomeFirstResponder()
+
+		return viewTextFields.becomeFirstResponder()
+	}
+
 }

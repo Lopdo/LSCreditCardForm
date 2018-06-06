@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'LSCreditCardForm'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = 'Simple and engaging credit card form'
 
 s.description      = <<-DESC
