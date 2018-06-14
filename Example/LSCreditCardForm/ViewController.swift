@@ -49,4 +49,8 @@ extension ViewController: LSCreditCardFormDelegate {
 		print(creditCard.cardHolderName)
 		print(creditCard.cvv)
 	}
+
+	func getCustomCardType(for number: String) -> LSCreditCardType? {
+		return number.hasPrefix("493428") ? .custom("mada_visa") : nil
+	}
 }

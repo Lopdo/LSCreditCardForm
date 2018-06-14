@@ -18,6 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
 		LSCreditCardFormConfig.CreditCard.softLimitVisaTo16Digits = true
+
+		LSCreditCardFormConfig.CreditCard.imgBackForCustomType = { type in
+			print("back for ", type)
+			return UIImage(named: "mada_back")
+		}
+		LSCreditCardFormConfig.CreditCard.imgFrontForCustomType = { type in
+			return UIImage(named: "mada_front")
+		}
+		//LSCreditCardFormConfig.CreditCard.supportedTypes = [.visa, .mastercard];
+		
         return true
     }
 

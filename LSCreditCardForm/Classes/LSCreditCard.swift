@@ -28,6 +28,8 @@ public enum LSCreditCardType {
 	case jcb
 	case maestro
 
+	case custom(String)
+	
 	case unknown
 
 	private func getImageNameFront() -> String {
@@ -41,6 +43,7 @@ public enum LSCreditCardType {
 		case .maestro: return "cc_template_maestro"
 		case .enRoute: return "cc_template_enroute"
 		case .unknown: return "cc_template"
+		case .custom(_): return ""
 		}
 	}
 
@@ -55,6 +58,7 @@ public enum LSCreditCardType {
 		case .maestro: return "cc_template_maestro_back"
 		case .enRoute: return "cc_template_enroute_back"
 		case .unknown: return "cc_template_back"
+		case .custom(_): return ""
 		}
 	}
 
@@ -73,6 +77,7 @@ public enum LSCreditCardType {
 			case .maestro: img = LSCreditCardFormConfig.CreditCard.imgMaestroFront
 			case .enRoute: img = LSCreditCardFormConfig.CreditCard.imgEnRouteFront
 			case .unknown: img = LSCreditCardFormConfig.CreditCard.imgUnknownFront
+			case .custom(let ccType): img = LSCreditCardFormConfig.CreditCard.imgFrontForCustomType?(ccType)
 			}
 
 			return img ?? UIImage(named: getImageNameFront(), in: Bundle(for: LSCreditCardView.self), compatibleWith: nil)
@@ -94,6 +99,7 @@ public enum LSCreditCardType {
 			case .maestro: img = LSCreditCardFormConfig.CreditCard.imgMaestroBack
 			case .enRoute: img = LSCreditCardFormConfig.CreditCard.imgEnRouteBack
 			case .unknown: img = LSCreditCardFormConfig.CreditCard.imgUnknownBack
+			case .custom(let ccType): img = LSCreditCardFormConfig.CreditCard.imgBackForCustomType?(ccType)
 			}
 
 			return img ?? UIImage(named: getImageNameBack(), in: Bundle(for: LSCreditCardView.self), compatibleWith: nil)
@@ -112,6 +118,7 @@ public enum LSCreditCardType {
 			case .maestro: return try! NSRegularExpression(pattern: "^(5[06789]|6)")
 			case .enRoute: return try! NSRegularExpression(pattern: "^(2014|2149)")
 			case .unknown: return try! NSRegularExpression(pattern: "")
+			case .custom(_): return try! NSRegularExpression(pattern: "")
 			}
 		}
 	}
@@ -128,6 +135,7 @@ public enum LSCreditCardType {
 			case .maestro: return try! NSRegularExpression(pattern: "^(5[06789]|6)[0-9]{0,}$")
 			case .enRoute: return try! NSRegularExpression(pattern: "^(2014|2149)[0-9]*$")
 			case .unknown: return try! NSRegularExpression(pattern: "(?!.*)") // does not match anything
+			case .custom(_): return try! NSRegularExpression(pattern: "(?!.*)") // does not match anything
 			}
 		}
 	}
@@ -144,6 +152,7 @@ public enum LSCreditCardType {
 			case .maestro: return 19
 			case .enRoute: return 15
 			case .unknown: return 16
+			case .custom(_): return 16
 			}
 		}
 	}
@@ -178,13 +187,13 @@ public enum LSCreditCardType {
 				return LSCreditCardType.format465(cardNumber:cursorPosition:)
 			case .unknown:
 				return nil
+			case .custom(_):
+				return LSCreditCardType.format4444(cardNumber:cursorPosition:)
 			}
 		}
 	}
 
 	static func getType(cardNumber: String) -> LSCreditCardType {
-
-		let trimmedNumber = cardNumber.replacingOccurrences(of: " ", with: "")
 
 		let types: [LSCreditCardType]
 		if LSCreditCardFormConfig.CreditCard.supportedTypes != nil && !LSCreditCardFormConfig.CreditCard.supportedTypes!.isEmpty {
@@ -194,8 +203,8 @@ public enum LSCreditCardType {
 		}
 
 		for t in types {
-			let results = t.regexDetection.matches(in: trimmedNumber,
-												   range: NSRange(trimmedNumber.startIndex..., in: trimmedNumber))
+			let results = t.regexDetection.matches(in: cardNumber,
+												   range: NSRange(cardNumber.startIndex..., in: cardNumber))
 
 			if results.count > 0 {
 				return t

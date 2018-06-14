@@ -20,6 +20,8 @@ class LSViewsCoordinator {
 	weak var viewButtons: LSButtonsView!
 	weak var viewCreditCard: LSCreditCardView!
 
+	weak var delegate: LSCreditCardFormDelegate?
+
 	var creditCard = LSCreditCard()
 
 	init() { }
@@ -32,7 +34,14 @@ class LSViewsCoordinator {
 
 	func updateCCNumber(_ newValue: String) {
 		creditCard.number = newValue
-		creditCard.cardType = LSCreditCardType.getType(cardNumber: newValue)
+
+		let trimmedNumber = newValue.replacingOccurrences(of: " ", with: "")
+
+		if let type = delegate?.getCustomCardType(for: trimmedNumber) {
+			creditCard.cardType = type
+		} else {
+			creditCard.cardType = LSCreditCardType.getType(cardNumber: trimmedNumber)
+		}
 		viewCreditCard.updateValues(creditCard: creditCard)
 	}
 

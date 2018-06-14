@@ -10,7 +10,7 @@ import UIKit
 public protocol LSCreditCardFormDelegate: AnyObject {
 
 	func didCompleteForm(creditCard: LSCreditCard)
-
+	func getCustomCardType(for number: String) -> LSCreditCardType?
 }
 
 public class LSCreditCardFormView: UIView {
@@ -22,6 +22,7 @@ public class LSCreditCardFormView: UIView {
 	public weak var delegate: LSCreditCardFormDelegate? {
 		didSet {
 			viewButtons.delegate = delegate
+			coordinator.delegate = delegate
 		}
 	}
 

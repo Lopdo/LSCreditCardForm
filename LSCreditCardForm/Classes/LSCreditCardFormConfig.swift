@@ -40,6 +40,9 @@ public struct LSCreditCardFormConfig {
 		public static var imgUnknownFront: UIImage? = nil
 		public static var imgUnknownBack: UIImage? = nil
 
+		public static var imgFrontForCustomType: ((_ type: String) -> UIImage?)? = nil
+		public static var imgBackForCustomType: ((_ type: String) -> UIImage?)? = nil
+
 		// Customization of view sitting behing credit card, use backgroundView property
 		// if you require something other than solid color (which can be set using backgroundColor)
 		public static var backgroundView: UIView? = nil

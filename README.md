@@ -44,6 +44,14 @@ If you wish to limit which credit cards get detected, override `CreditCard.suppo
 want to detect. User will still be able to enter any credit card number, disabling detection for certain types simply means that the credit
 card image will not update and will remain on "unknown" credit card.
 
+## Custom types
+
+You can supply detection of and images for additional credit card types. Use delegate method `func getCustomCardType(for number: String) -> LSCreditCardType?` 
+to check if CC number belongs to your custom type. Return `nil` if it doesn't, to have library do the default type detection. You also should 
+provide images for your new type using `LSCreditCardFormConfig.CreditCard.imgBackForCustomType` and `LSCreditCardFormConfig.CreditCard.imgFrontForCustomType` 
+callbacks. See example project for more details.
+Currently, only custom images are supported, you can't provide custom number length and formatting, default 4-4-4-4 is used for all custom types.
+
 ## Keyboard
 
 If you wish to have keyboard open as soon as the view appears with new view controller, call `becomeFirstResponder` on `LSCreditCardFormView`. 
