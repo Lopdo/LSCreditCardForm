@@ -59,23 +59,36 @@ class LSTextFieldsView: UIView {
 		scrollView.addConstraint(NSLayoutConstraint(item: scrollView, attribute: .height, relatedBy: .equal, toItem: contentView, attribute: .height, multiplier: 1, constant: 0))
 
 		tfNumber = UITextField()
-		tfNumber.keyboardType = .numberPad
+		if #available(iOS 10, *) {
+			tfNumber.keyboardType = .asciiCapableNumberPad
+		} else {
+			tfNumber.keyboardType = .numberPad
+		}
 		setup(textField: tfNumber)
 		contentView.addSubview(tfNumber)
 
 		tfExpiration = UITextField()
-		tfExpiration.keyboardType = .numberPad
+		if #available(iOS 10, *) {
+			tfExpiration.keyboardType = .asciiCapableNumberPad
+		} else {
+			tfExpiration.keyboardType = .numberPad
+		}
 		setup(textField: tfExpiration)
 		contentView.addSubview(tfExpiration)
 
 		tfCVV = UITextField()
-		tfCVV.keyboardType = .numberPad
+		if #available(iOS 10, *) {
+			tfCVV.keyboardType = .asciiCapableNumberPad
+		} else {
+			tfCVV.keyboardType = .numberPad
+		}
 		setup(textField: tfCVV)
 		contentView.addSubview(tfCVV)
 
 		tfCardHolderName = UITextField()
 		tfCardHolderName.autocorrectionType = .no
 		tfCardHolderName.autocapitalizationType = .words
+		tfCardHolderName.keyboardType = .asciiCapable
 		setup(textField: tfCardHolderName)
 		contentView.addSubview(tfCardHolderName)
 
