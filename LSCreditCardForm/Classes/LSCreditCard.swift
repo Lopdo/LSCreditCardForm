@@ -15,6 +15,10 @@ public class LSCreditCard {
 	public var cardHolderName: String = ""
 
 	public var cardType: LSCreditCardType = .unknown
+
+	public init() {
+		
+	}
 }
 
 public enum LSCreditCardType {

@@ -65,6 +65,12 @@ it, simply add the following line to your Podfile:
 pod 'LSCreditCardForm'
 ```
 
+## Using LSCreditCardView outside of the LSCreditCardForm
+
+If you want to display credit card view in your app, you can. First create instance of `LSCreditCardView` and add it into your view hierarchy.
+Create instance of `LSCreditCard` and feed it CC number, card holder name, expiration date string and type and call `updateValues(creditCard:)`
+on your `LSCreditCardView` instance. 
+
 ## License
 
 LSCreditCardForm is available under the MIT license. See the LICENSE file for more info.

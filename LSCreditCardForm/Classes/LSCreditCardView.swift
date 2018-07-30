@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LSCreditCardView: UIView {
+public class LSCreditCardView: UIView {
 
 	private var imgViewBackground: UIImageView!
 	private var imgViewNumber: UIImageView!
@@ -35,13 +35,14 @@ class LSCreditCardView: UIView {
 
 	private var resizeRatio: CGFloat = 1
 
+	private var card: LSCreditCard?
 	private var cardType: LSCreditCardType = .unknown
 
 	private var facingFront = true
 	private var inTransition = false
 
 
-	init() {
+	public init() {
 		super.init(frame: CGRect.zero)
 
 		translatesAutoresizingMaskIntoConstraints = false
@@ -136,11 +137,11 @@ class LSCreditCardView: UIView {
 		addConstraint(constraintExpirationTitleTop)
 	}
 
-	required init?(coder aDecoder: NSCoder) {
+	public required init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 	}
 
-	override func layoutSubviews() {
+	public override func layoutSubviews() {
 		super.layoutSubviews()
 
 		resizeRatio = self.frame.width / 333
@@ -164,7 +165,7 @@ class LSCreditCardView: UIView {
 		lblCardHolderTitle.font = UIFont.systemFont(ofSize: 10 * resizeRatio)
 		lblExpirationTitle.font = UIFont.systemFont(ofSize: 10 * resizeRatio)
 
-		updateValues(creditCard: nil)
+		updateValues(creditCard: card)
 	}
 
 	func flipCard(toFront: Bool) {
@@ -242,8 +243,10 @@ class LSCreditCardView: UIView {
 			deadline: DispatchTime.now() + Double(Int64(delayInSeconds * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: closure)
 	}
 
-	func updateValues(creditCard: LSCreditCard?) {
+	public func updateValues(creditCard: LSCreditCard?) {
 
+		card = creditCard
+		
 		if let card = creditCard {
 			lblCVV.text = card.cvv
 
