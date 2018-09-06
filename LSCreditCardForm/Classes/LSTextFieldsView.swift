@@ -94,22 +94,22 @@ class LSTextFieldsView: UIView {
 
 		lblNumber = UILabel()
 		setup(textFieldLabel: lblNumber)
-		lblNumber.text = "CARD NUMBER"
+		lblNumber.text = LSCreditCardFormConfig.TextFieldLabels.localization.number ?? "CARD NUMBER"
 		contentView.addSubview(lblNumber)
 
 		lblExpiration = UILabel()
 		setup(textFieldLabel: lblExpiration)
-		lblExpiration.text = "EXPIRY DATE"
+		lblExpiration.text = LSCreditCardFormConfig.TextFieldLabels.localization.expiryDate ?? "EXPIRY DATE"
 		contentView.addSubview(lblExpiration)
 
 		lblCardHolderName = UILabel()
 		setup(textFieldLabel: lblCardHolderName)
-		lblCardHolderName.text = "CARD HOLDER'S NAME"
+		lblCardHolderName.text = LSCreditCardFormConfig.TextFieldLabels.localization.name ?? "CARD HOLDER'S NAME"
 		contentView.addSubview(lblCardHolderName)
 
 		lblCVV = UILabel()
 		setup(textFieldLabel: lblCVV)
-		lblCVV.text = "CVV/CVC"
+		lblCVV.text = LSCreditCardFormConfig.TextFieldLabels.localization.cvv ?? "CVV/CVC"
 		contentView.addSubview(lblCVV)
 
 		let views: [String: Any] = ["number": tfNumber,

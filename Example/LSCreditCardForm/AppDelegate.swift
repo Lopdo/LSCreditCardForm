@@ -27,7 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			return UIImage(named: "mada_front")
 		}
 		//LSCreditCardFormConfig.CreditCard.supportedTypes = [.visa, .mastercard];
-		
+
+		LSCreditCardFormConfig.Buttons.localization.next = "Next"
+		LSCreditCardFormConfig.TextFieldLabels.localization.number = "Card number"
+
         return true
     }
 

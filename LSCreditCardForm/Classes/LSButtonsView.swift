@@ -34,7 +34,7 @@ class LSButtonsView: UIView {
 		buttonPrev = UIButton()
 		buttonPrev.translatesAutoresizingMaskIntoConstraints = false
 		buttonPrev.titleLabel?.font = LSCreditCardFormConfig.Buttons.font ?? UIFont.systemFont(ofSize: 16)
-		buttonPrev.setTitle("PREV", for: .normal)
+		buttonPrev.setTitle(LSCreditCardFormConfig.Buttons.localization.previous ?? "PREV", for: .normal)
 		buttonPrev.setTitleColor(LSCreditCardFormConfig.Buttons.prevTextColor ?? UIColor.white, for: .normal)
 		buttonPrev.backgroundColor = LSCreditCardFormConfig.Buttons.prevColor ?? UIColor.clear
 		buttonPrev.addTarget(self, action: #selector(onPrevPressed), for: .touchUpInside)
@@ -43,7 +43,7 @@ class LSButtonsView: UIView {
 		buttonNext = UIButton()
 		buttonNext.translatesAutoresizingMaskIntoConstraints = false
 		buttonNext.titleLabel?.font = LSCreditCardFormConfig.Buttons.font ?? UIFont.systemFont(ofSize: 16)
-		buttonNext.setTitle("NEXT", for: .normal)
+		buttonNext.setTitle(LSCreditCardFormConfig.Buttons.localization.next ?? "NEXT", for: .normal)
 		buttonNext.setTitleColor(LSCreditCardFormConfig.Buttons.nextTextColor ?? UIColor.white, for: .normal)
 		buttonNext.backgroundColor = LSCreditCardFormConfig.Buttons.nextColor ?? UIColor.clear
 		buttonNext.addTarget(self, action: #selector(onNextPressed), for: .touchUpInside)
@@ -103,9 +103,9 @@ class LSButtonsView: UIView {
 
 		UIView.animate(withDuration: 0.2) {
 			if field == .name {
-				self.buttonNext.setTitle("DONE", for: .normal)
+				self.buttonNext.setTitle(LSCreditCardFormConfig.Buttons.localization.done ?? "DONE", for: .normal)
 			} else {
-				self.buttonNext.setTitle("NEXT", for: .normal)
+				self.buttonNext.setTitle(LSCreditCardFormConfig.Buttons.localization.next ?? "NEXT", for: .normal)
 			}
 			self.layoutIfNeeded()
 		}

@@ -68,6 +68,14 @@ public struct LSCreditCardFormConfig {
 		public static var textColorActive: UIColor? = nil
 		public static var textColorInactive: UIColor? = nil
 
+		public struct Localization {
+			public var number: String? = nil
+			public var expiryDate: String? = nil
+			public var cvv: String? = nil
+			public var name: String? = nil
+		}
+
+		public static var localization = Localization()
 	}
 
 	public struct Buttons {
@@ -77,6 +85,13 @@ public struct LSCreditCardFormConfig {
 		public static var nextColor: UIColor? = nil
 		public static var prevTextColor: UIColor? = nil
 		public static var nextTextColor: UIColor? = nil
-		
+
+		public struct Localization {
+			public var next: String? = nil
+			public var previous: String? = nil
+			public var done: String? = nil
+		}
+
+		public static var localization = Localization()
 	}
 }
