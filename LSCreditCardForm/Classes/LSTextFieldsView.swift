@@ -121,7 +121,7 @@ class LSTextFieldsView: UIView {
 									"lblName": lblCardHolderName,
 									"lblCVV": lblCVV]
 
-		contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-20-[number(220)]-20-[expiration(100)]-20-[cvv(80)]-20-[name(250)]-20-|", options: [], metrics: nil, views: views))
+		contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-20-[number(220)]-20-[expiration(100)]-20-[cvv(80)]-20-[name(250)]-20-|", options: [.directionLeadingToTrailing], metrics: nil, views: views))
 		contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-6-[lblNumber]-4-[number]-10-|", options: [], metrics: nil, views: views))
 		contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-6-[lblExpiration]-4-[expiration]-10-|", options: [], metrics: nil, views: views))
 		contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-6-[lblName]-4-[name]-10-|", options: [], metrics: nil, views: views))
@@ -131,6 +131,14 @@ class LSTextFieldsView: UIView {
 		contentView.addConstraint(NSLayoutConstraint(item: lblCardHolderName, attribute: .leading, relatedBy: .equal, toItem: tfCardHolderName, attribute: .leading, multiplier: 1, constant: 0))
 		contentView.addConstraint(NSLayoutConstraint(item: lblCVV, attribute: .leading, relatedBy: .equal, toItem: tfCVV, attribute: .leading, multiplier: 1, constant: 0))
 
+		setNeedsLayout()
+		layoutIfNeeded()
+
+		if #available(iOS 10.0, *) {
+			if effectiveUserInterfaceLayoutDirection == .rightToLeft {
+				scrollView.contentOffset.x = scrollView.contentSize.width - scrollView.bounds.size.width
+			}
+		}
 	}
 
 	required init?(coder aDecoder: NSCoder) {
@@ -172,19 +180,52 @@ class LSTextFieldsView: UIView {
 		case .number:
 			tfNumber.becomeFirstResponder()
 			lblNumber.textColor = colorActive
-			newContentOffset = 0
+			if #available(iOS 10.0, *) {
+				if effectiveUserInterfaceLayoutDirection == .leftToRight {
+					newContentOffset = tfNumber.frame.origin.x - 20
+				} else {
+					newContentOffset = (tfNumber.frame.origin.x + tfNumber.frame.size.width) - scrollView.frame.width + 20
+				}
+			} else {
+				newContentOffset = tfNumber.frame.origin.x - 20
+			}
 		case .expiration:
 			tfExpiration.becomeFirstResponder()
 			lblExpiration.textColor = colorActive
-			newContentOffset = 240
+			if #available(iOS 10.0, *) {
+				if effectiveUserInterfaceLayoutDirection == .leftToRight {
+					newContentOffset = tfExpiration.frame.origin.x - 20
+				} else {
+					newContentOffset = (tfExpiration.frame.origin.x + tfExpiration.frame.size.width) - scrollView.frame.width + 20
+				}
+			} else {
+				newContentOffset = tfExpiration.frame.origin.x - 20
+			}
 		case .cvv:
 			tfCVV.becomeFirstResponder()
 			lblCVV.textColor = colorActive
-			newContentOffset = 240
+			if #available(iOS 10.0, *) {
+				if effectiveUserInterfaceLayoutDirection == .leftToRight {
+					newContentOffset = tfExpiration.frame.origin.x - 20
+				} else {
+					newContentOffset = (tfExpiration.frame.origin.x + tfExpiration.frame.size.width) - scrollView.frame.width + 20
+				}
+			} else {
+				newContentOffset = tfExpiration.frame.origin.x - 20
+			}
 		case .name:
 			tfCardHolderName.becomeFirstResponder()
 			lblCardHolderName.textColor = colorActive
-			newContentOffset = scrollView.contentSize.width - scrollView.bounds.size.width
+			if #available(iOS 10.0, *) {
+				if effectiveUserInterfaceLayoutDirection == .leftToRight {
+					newContentOffset = scrollView.contentSize.width - scrollView.bounds.size.width
+				} else {
+					newContentOffset = 0
+				}
+			} else {
+				newContentOffset = scrollView.contentSize.width - scrollView.bounds.size.width
+			}
+
 		}
 
 		scrollView.setContentOffset(CGPoint(x: newContentOffset, y: 0), animated: true)

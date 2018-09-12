@@ -53,9 +53,10 @@ class LSCreditCardFont {
 
 extension UIImage {
 
-	class func image(from string: String, attributes: [NSAttributedStringKey: Any]?, size: CGSize) -> UIImage? {
+	class func image(from string: String, attributes: [NSAttributedStringKey: Any]?) -> UIImage? {
+		let size = string.size(withAttributes: attributes)
 		UIGraphicsBeginImageContextWithOptions(size, false, 0)
-		let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
+		let rect = CGRect(origin: .zero, size: size)
 		string.draw(with: rect, options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
 		let image = UIGraphicsGetImageFromCurrentImageContext()
 		UIGraphicsEndImageContext()

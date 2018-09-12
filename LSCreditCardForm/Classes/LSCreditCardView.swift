@@ -62,7 +62,7 @@ public class LSCreditCardView: UIView {
 		imgViewNumber.translatesAutoresizingMaskIntoConstraints = false
 		addSubview(imgViewNumber)
 
-		constraintNumberLeading = NSLayoutConstraint(item: imgViewNumber, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 32)
+		constraintNumberLeading = NSLayoutConstraint(item: imgViewNumber, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 32)
 		constraintNumberTop = NSLayoutConstraint(item: imgViewNumber, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 96)
 		addConstraint(constraintNumberLeading)
 		addConstraint(constraintNumberTop)
@@ -71,7 +71,7 @@ public class LSCreditCardView: UIView {
 		imgViewExpiration.translatesAutoresizingMaskIntoConstraints = false
 		addSubview(imgViewExpiration)
 
-		constraintExpirationLeading = NSLayoutConstraint(item: imgViewExpiration, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 244)
+		constraintExpirationLeading = NSLayoutConstraint(item: imgViewExpiration, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 244)
 		constraintExpirationTop = NSLayoutConstraint(item: imgViewExpiration, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 166)
 		addConstraint(constraintExpirationLeading)
 		addConstraint(constraintExpirationTop)
@@ -80,7 +80,7 @@ public class LSCreditCardView: UIView {
 		imgViewName.translatesAutoresizingMaskIntoConstraints = false
 		addSubview(imgViewName)
 
-		constraintNameLeading = NSLayoutConstraint(item: imgViewName, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 32)
+		constraintNameLeading = NSLayoutConstraint(item: imgViewName, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 32)
 		constraintNameTop = NSLayoutConstraint(item: imgViewName, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 166)
 		addConstraint(constraintNameLeading)
 		addConstraint(constraintNameTop)
@@ -90,7 +90,7 @@ public class LSCreditCardView: UIView {
 		cvvWrapView.backgroundColor = UIColor.clear
 		addSubview(cvvWrapView)
 
-		constraintCVVLeading = NSLayoutConstraint(item: cvvWrapView, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 24)
+		constraintCVVLeading = NSLayoutConstraint(item: cvvWrapView, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 24)
 		constraintCVVTop = NSLayoutConstraint(item: cvvWrapView, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 100)
 		addConstraint(constraintCVVLeading)
 		addConstraint(constraintCVVTop)
@@ -126,12 +126,12 @@ public class LSCreditCardView: UIView {
 		lblExpirationTitle.text = "EXPIRES"
 		addSubview(lblExpirationTitle)
 
-		constraintNameTitleLeading = NSLayoutConstraint(item: lblCardHolderTitle, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 32)
+		constraintNameTitleLeading = NSLayoutConstraint(item: lblCardHolderTitle, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 32)
 		constraintNameTitleTop = NSLayoutConstraint(item: lblCardHolderTitle, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 148)
 		addConstraint(constraintNameTitleLeading)
 		addConstraint(constraintNameTitleTop)
 
-		constraintExpirationTitleLeading = NSLayoutConstraint(item: lblExpirationTitle, attribute: .leading, relatedBy: .equal, toItem: self, attribute: .leading, multiplier: 1, constant: 244)
+		constraintExpirationTitleLeading = NSLayoutConstraint(item: lblExpirationTitle, attribute: .left, relatedBy: .equal, toItem: self, attribute: .left, multiplier: 1, constant: 244)
 		constraintExpirationTitleTop = NSLayoutConstraint(item: lblExpirationTitle, attribute: .top, relatedBy: .equal, toItem: self, attribute: .top, multiplier: 1, constant: 148)
 		addConstraint(constraintExpirationTitleLeading)
 		addConstraint(constraintExpirationTitleTop)
@@ -250,17 +250,17 @@ public class LSCreditCardView: UIView {
 		if let card = creditCard {
 			lblCVV.text = card.cvv
 
-			imgViewNumber.image = createImage(from: card.number, size: CGSize(width: 250, height: 16))
-			imgViewExpiration.image = createImage(from: LSCreditCardFont.convertTextToSmallNumbers(text: card.expiration), size: CGSize(width: 40, height: 16))
-			imgViewName.image = createImage(from: LSCreditCardFont.convertTextToSmallNumbers(text: card.cardHolderName.uppercased()), size: CGSize(width: 200, height: 16))
+			imgViewNumber.image = createImage(from: card.number)
+			imgViewExpiration.image = createImage(from: LSCreditCardFont.convertTextToSmallNumbers(text: card.expiration))
+			imgViewName.image = createImage(from: LSCreditCardFont.convertTextToSmallNumbers(text: card.cardHolderName.uppercased()))
 
 			cardType = card.cardType
 		} else {
 			lblCVV.text = ""
 
-			imgViewNumber.image = createImage(from: "", size: CGSize(width: 250, height: 16))
-			imgViewExpiration.image = createImage(from: "", size: CGSize(width: 40, height: 16))
-			imgViewName.image = createImage(from: "", size: CGSize(width: 200, height: 16))
+			imgViewNumber.image = createImage(from: "")
+			imgViewExpiration.image = createImage(from: "")
+			imgViewName.image = createImage(from: "")
 
 			cardType = .unknown
 		}
@@ -268,12 +268,12 @@ public class LSCreditCardView: UIView {
 		updateCardContent()
 	}
 
-	func createImage(from string: String, size: CGSize) -> UIImage? {
+	func createImage(from string: String) -> UIImage? {
 
 		let stringAttributes: [NSAttributedStringKey: Any] = [.font: UIFont(name: "Credit Card", size: 13 * resizeRatio)!,
 															  .foregroundColor: UIColor.white]
 
-		let image = UIImage.image(from: string, attributes: stringAttributes, size: size)
+		let image = UIImage.image(from: string, attributes: stringAttributes)
 
 		#if targetEnvironment(simulator)
 		return image
