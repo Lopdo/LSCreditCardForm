@@ -270,7 +270,7 @@ public class LSCreditCardView: UIView {
 
 	func createImage(from string: String) -> UIImage? {
 
-		let stringAttributes: [NSAttributedStringKey: Any] = [.font: UIFont(name: "Credit Card", size: 13 * resizeRatio)!,
+		let stringAttributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: "Credit Card", size: 13 * resizeRatio)!,
 															  .foregroundColor: UIColor.white]
 
 		let image = UIImage.image(from: string, attributes: stringAttributes)

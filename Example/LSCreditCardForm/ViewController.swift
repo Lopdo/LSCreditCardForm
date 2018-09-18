@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
 		NotificationCenter.default.addObserver(self,
 											   selector: #selector(keyboardNotification),
-											   name: NSNotification.Name.UIKeyboardWillChangeFrame,
+											   name: UIResponder.keyboardWillChangeFrameNotification,
 											   object: nil)
 
 		viewCCForm.delegate = self
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
 
 	@objc func keyboardNotification(notification: NSNotification) {
-		if let endFrame = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect {
+		if let endFrame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
 			constraintKeyboard.constant = endFrame.height
 			view.setNeedsLayout()
 			view.layoutIfNeeded()
